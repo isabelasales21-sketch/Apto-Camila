@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-360-social_2-convertido-de-png",
-      "name": "360° SOCIAL_2-convertido-de-png",
+      "name": "BANHEIRO SOCIAL",
       "levels": [
         {
           "tileSize": 256,
@@ -40,7 +40,7 @@ var APP_DATA = {
     },
     {
       "id": "1-360-sala-convertido-de-png",
-      "name": "360° SALA-convertido-de-png",
+      "name": "SALA & COZINHA",
       "levels": [
         {
           "tileSize": 256,
@@ -90,7 +90,7 @@ var APP_DATA = {
     },
     {
       "id": "2-360-banho-suite_2-convertido-de-png",
-      "name": "360° BANHO SUITE_2-convertido-de-png",
+      "name": "BANHEIRO SUÍTE",
       "levels": [
         {
           "tileSize": 256,
@@ -128,7 +128,7 @@ var APP_DATA = {
     },
     {
       "id": "3-360-visitas_3-convertido-de-png",
-      "name": "360 VISITAS_3-convertido-de-png",
+      "name": "DORMITÓRIO VISITAS",
       "levels": [
         {
           "tileSize": 256,
@@ -166,7 +166,7 @@ var APP_DATA = {
     },
     {
       "id": "4-360---suite_4-convertido-de-png",
-      "name": "360 - SUITE_4-convertido-de-png",
+      "name": "SUÍTE",
       "levels": [
         {
           "tileSize": 256,
