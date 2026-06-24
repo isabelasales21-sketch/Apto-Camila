@@ -1,58 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-sala-cozinha",
-      "name": "SALA-COZINHA",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": -1.4928445049212904,
-        "pitch": 0.3712527634241578,
-        "fov": 1.0141528350377254
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.5521523306359803,
-          "pitch": 0.4419144264970356,
-          "rotation": 0,
-          "target": "4-banho-social"
-        },
-        {
-          "yaw": -1.6975841778774488,
-          "pitch": 0.5077543367711481,
-          "rotation": 5.497787143782138,
-          "target": "3-quarto-visita"
-        },
-        {
-          "yaw": 2.273224796809176,
-          "pitch": 0.7239985785003054,
-          "rotation": 0,
-          "target": "1-sute"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-sute",
-      "name": "SUÍTE",
+      "id": "0-360-social_2-convertido-de-png",
+      "name": "360° SOCIAL_2-convertido-de-png",
       "levels": [
         {
           "tileSize": 256,
@@ -80,23 +30,67 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.4175712111346321,
-          "pitch": 0.5775532221252568,
+          "yaw": -2.6169923636308123,
+          "pitch": 1.4010903619382091,
           "rotation": 0,
-          "target": "2-banho-sute"
+          "target": "1-360-sala-convertido-de-png"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-360-sala-convertido-de-png",
+      "name": "360° SALA-convertido-de-png",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": -2.1122886181170593,
-          "pitch": 0.5794094081760086,
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.5249580059034447,
+          "pitch": 0.42216430714422515,
+          "rotation": 0,
+          "target": "0-360-social_2-convertido-de-png"
+        },
+        {
+          "yaw": -1.6808515307097007,
+          "pitch": 0.47821751362574183,
           "rotation": 4.71238898038469,
-          "target": "0-sala-cozinha"
+          "target": "3-360-visitas_3-convertido-de-png"
+        },
+        {
+          "yaw": 2.198116669907174,
+          "pitch": 0.679975400289182,
+          "rotation": 6.283185307179586,
+          "target": "4-360---suite_4-convertido-de-png"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-banho-sute",
-      "name": "BANHO-SUÍTE",
+      "id": "2-360-banho-suite_2-convertido-de-png",
+      "name": "360° BANHO SUITE_2-convertido-de-png",
       "levels": [
         {
           "tileSize": 256,
@@ -124,17 +118,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.9929874414427804,
-          "pitch": 1.3026600850459644,
+          "yaw": 1.8642632139878348,
+          "pitch": 1.2733019169820565,
           "rotation": 0,
-          "target": "1-sute"
+          "target": "4-360---suite_4-convertido-de-png"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-quarto-visita",
-      "name": "QUARTO-VISITA",
+      "id": "3-360-visitas_3-convertido-de-png",
+      "name": "360 VISITAS_3-convertido-de-png",
       "levels": [
         {
           "tileSize": 256,
@@ -162,17 +156,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.905526495722878,
-          "pitch": 0.4328440951027481,
+          "yaw": 1.8876758020816,
+          "pitch": 0.41036934617789456,
           "rotation": 0,
-          "target": "0-sala-cozinha"
+          "target": "1-360-sala-convertido-de-png"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-banho-social",
-      "name": "BANHO-SOCIAL",
+      "id": "4-360---suite_4-convertido-de-png",
+      "name": "360 - SUITE_4-convertido-de-png",
       "levels": [
         {
           "tileSize": 256,
@@ -194,26 +188,32 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -1.403302895000369,
+        "pitch": 0.4933409050162396,
+        "fov": 1.0206223595689021
       },
       "linkHotspots": [
         {
-          "yaw": -2.4347868260982892,
-          "pitch": 1.4269355989896884,
-          "rotation": 12.566370614359176,
-          "target": "0-sala-cozinha"
+          "yaw": -1.3982646226013458,
+          "pitch": 0.5499536685788478,
+          "rotation": 0,
+          "target": "2-360-banho-suite_2-convertido-de-png"
+        },
+        {
+          "yaw": -2.145209011983514,
+          "pitch": 0.5483867569928815,
+          "rotation": 4.71238898038469,
+          "target": "1-360-sala-convertido-de-png"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "APTO CAMILA",
+  "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": false,
-    "fullscreenButton": true,
-    "viewControlButtons": true
+    "autorotateEnabled": true,
+    "fullscreenButton": false,
+    "viewControlButtons": false
   }
 };
